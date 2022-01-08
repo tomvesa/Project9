@@ -335,14 +335,10 @@ async function  sendMessage(){
             event.stopPropagation();
           //  console.log('message not sent');
           } else {
-            event.preventDefault();
-            event.stopPropagation();  
-            console.log('message sending');
-            sendMessage();
-            form.submit();
+
             //forms.classList.remove('was-validated');
           }
-  
+          sendMessage();  
           form.classList.add('was-validated');
         }, false);
       });
