@@ -291,10 +291,10 @@ sendBtn.singleEl.addEventListener("click", e => {
 
 async function  sendMessage(){
 
-
     const send = await setTimeout( ()=>{
-                const hideForm = contactFrm.addClass('d-none');
-                const displayMessage = sentMessage.removeClass('d-none');
+
+                contactFrm.addClass('d-none');
+                sentMessage.removeClass('d-none');
                     }, 1000);
 
     const reset = await setTimeout( ()=>{
@@ -306,6 +306,7 @@ async function  sendMessage(){
         const resetEmail = emailInp.value = "";
         const resetMessage = messageInp.value = "";
 
+   
     
             }, 5000);
 
@@ -319,7 +320,7 @@ async function  sendMessage(){
   
     // Fetch all the forms we want to apply custom Bootstrap validation styles to
     var forms = document.querySelectorAll('.needs-validation');
-  
+    console.log(forms[0].checkValidity());
     // Loop over them and prevent submission
     Array.prototype.slice.call(forms)
       .forEach(function (form) {
@@ -333,14 +334,17 @@ async function  sendMessage(){
           if (!form.checkValidity()) {
             event.preventDefault();
             event.stopPropagation();
+            
           //  console.log('message not sent');
           } else {
+            sendMessage();
 
-            //forms.classList.remove('was-validated');
           }
-          sendMessage();  
+
           form.classList.add('was-validated');
-        }, false);
+          
+          
+        },false);
       });
   })();
 
