@@ -1,0 +1,22 @@
+.section-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.trafic-nav{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-right: 15px;
+}
+
+.trafic-nav-item{
+    margin: 5px 15px;
+    padding: 3px 8px;
+    background: #00dd00;
+    color: white;
+    font-weight: 600;
+    border-radius: 15px;
+}

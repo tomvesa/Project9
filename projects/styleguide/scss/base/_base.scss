@@ -1,0 +1,40 @@
+/* ============================================= */
+/*              Base styles                      */
+/* ============================================= */
+
+* {
+    font-family: $font-fam-def;
+    color: $color-text-def;
+    box-sizing: border-box;
+  }
+  
+  p {
+    line-height: 1.45em;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+
+  /* ============================================= */
+/*              Images                           */
+/* ============================================= */
+
+.img-avatar {
+    @include centered;
+    margin-top: 10px;
+    max-width: 100%; 
+    max-height: 100%;
+  }
+  
+  .img-frame {
+    @include centered;
+    margin-top: 10px;
+    max-width: 100%;
+    padding: 13px;
+    border: 1px solid #ccc;
+  }
+  
+  .img-logo {
+    @include centered;
+  }

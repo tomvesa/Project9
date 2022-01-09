@@ -1,0 +1,54 @@
+.message,
+.settings
+.user-input-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.form-field,
+.form-area {
+    font-size: 1.2rem;
+    margin: 10px;
+}
+
+#send {
+    margin: 10px;
+}
+
+#message form {
+    position: relative;
+}
+
+#member-options {
+    position: absolute;
+    top: 80px;
+    left: 20px;
+    width: 300px;
+    // max-width: 450px;
+    // left: -270px;
+    background-color: $color-primary-Vlight;
+    
+    box-shadow: 3px 10px 15px -3px $color-primary;
+}
+
+.members-item {
+    font-size: 1.2em;
+    padding: 10px 20px;
+    border-bottom: 1px solid $color-primary;
+
+    &:last-child {
+        border-bottom: none;
+
+    }
+
+    &:hover {
+        color: $color-secondary;
+    }
+
+}
+
+.user-input-wrapper {
+    width: auto;
+}

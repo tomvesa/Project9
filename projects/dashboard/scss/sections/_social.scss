@@ -1,0 +1,44 @@
+.social-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid rgb(136, 136, 136);
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px;
+    background: $color-primary-Vlight;
+    flex-grow: 0.7;
+}
+
+.social-image {
+    background: #7477BF;
+    border-radius: 50%;
+    padding: .7em;
+    width: 70px;
+    height: 70px;
+}
+.social-image path{
+    fill: white;
+}
+
+#twitter-widget svg {
+    padding-top: 10%;
+}
+
+#facebook-widget svg {
+    padding-right: 10%;
+}
+
+.social-label{
+    font-size: 1.8em;
+}
+
+
+.social-value{
+    font-size: 2.8em;
+    font-weight: 500;
+}
+
+.social-text p {
+    margin: 0;
+}

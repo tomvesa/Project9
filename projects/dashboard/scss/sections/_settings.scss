@@ -1,0 +1,19 @@
+
+select option{
+    line-height: 2;
+}
+
+.button-switch {
+    margin:  5px;
+}
+.settings-button {
+    
+    display: flex;
+    justify-content: space-between;
+
+    & button{
+        flex-grow: 1;
+        margin: 10px;
+    }
+
+}

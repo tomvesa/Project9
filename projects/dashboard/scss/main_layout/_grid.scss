@@ -1,0 +1,36 @@
+
+body
+{
+    //background: yellow;
+    margin: 0;   
+    display: grid;
+    grid-template-columns: minmax(300px,1fr);
+    grid-template-rows: 70px auto auto 1fr;
+    grid-template-areas: "header"
+                         "nav"
+                         "dashboard"
+                         "main";
+
+}
+
+header{
+    grid-area: header;
+}
+
+nav{
+    grid-area: nav;
+    
+}
+
+main {
+    grid-area: main;
+    justify-self: center;
+    margin-bottom: 50px;
+}
+
+.dashboard-wrapper {
+    grid-area: dashboard;
+}
+
+
+

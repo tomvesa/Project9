@@ -1,0 +1,115 @@
+//  *****Base
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+    min-width: 320px;
+}
+
+
+
+h1 {
+    font-weight: lighter;
+}
+
+a {
+    text-decoration: none;
+    color: $color-secondary;
+}
+
+p, label {
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+}
+section {
+    max-width: 97vw;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+section:first-of-type {
+    margin-top: 0px;
+}
+
+input,
+textarea,
+button,
+select,
+option  {
+    padding: 15px 20px;
+    border-radius: 5px;
+}
+
+.button-primary {
+    background: $color-secondary;
+    color: white;
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: 3px;
+
+    &:hover{
+        background: $color-secondary-lighter;
+    }
+}
+
+.button-disabled {
+    background: $color-primary-lighter;
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    color: white;
+
+    &:hover{
+        background: $color-primary-light;
+    }
+}
+
+.content-wrapper,
+.content-list {
+    margin: 0 10px;
+    
+}
+
+
+.icon{
+    width: 40px;
+}
+
+.avatar,
+.profile-image {
+    border-radius: 50%;
+}
+
+.profile-image {
+    max-width: 75px;
+}
+
+
+
+.widget-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.settings label {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.button-switch {
+    max-width: 100px;
+}
+
+.button-label {
+    width: 250px;
+}
+
+.section-title {
+    text-transform: uppercase;
+}

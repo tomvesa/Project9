@@ -1,0 +1,319 @@
+nav {
+  background: #313131;
+}
+
+h1 {
+  font-weight: lighter;
+}
+
+a {
+  text-decoration: none;
+  color: #7477BF;
+}
+
+p {
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+}
+
+section {
+  margin-top: 20px;
+  padding: 0 10px;
+}
+
+section:first-of-type {
+  margin-top: 0px;
+}
+
+input,
+textarea,
+button,
+select,
+option {
+  padding: 15px 20px;
+  border-radius: 5px;
+}
+
+.button-primary {
+  background: #7477BF;
+  color: white;
+  font-size: 22px;
+  font-weight: 600;
+  letter-spacing: 3px;
+}
+.button-primary:hover {
+  background: #a8aad7;
+}
+
+.button-disabled {
+  background: #a6a6a6;
+  font-size: 22px;
+  font-weight: 600;
+  letter-spacing: 3px;
+  color: #272727;
+}
+.button-disabled:hover {
+  background: silver;
+}
+
+.content-wrapper,
+.content-list {
+  margin: 0 10px;
+}
+
+.icon {
+  width: 40px;
+}
+
+.avatar,
+.profile-image {
+  border-radius: 50%;
+}
+
+.profile-image {
+  max-width: 75px;
+}
+
+.widget-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.settings label {
+  display: flex;
+  justify-content: space-around;
+}
+
+.button-switch {
+  max-width: 100px;
+}
+
+.button-label {
+  width: 250px;
+}
+
+.section-title {
+  text-transform: uppercase;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 70px 70px 1fr;
+  grid-template-areas: "header" "nav" "main";
+}
+
+header {
+  grid-area: header;
+}
+
+nav {
+  grid-area: nav;
+}
+
+main {
+  grid-area: main;
+}
+
+header {
+  background: #494c9e;
+  height: 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 5px 10px;
+  align-items: center;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+}
+.header-container :first-child {
+  margin-right: 5px;
+}
+.header-container :last-child {
+  margin-left: 15px;
+}
+
+.dashboard {
+  padding-right: 0px;
+}
+
+.main-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 70px;
+}
+.main-header .headline {
+  margin: auto 10px auto 20px;
+}
+
+.main-header-search {
+  background: #808080;
+  height: 70px;
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  border-bottom-left-radius: 8px;
+  justify-content: flex-end;
+}
+.main-header-search input {
+  margin-right: 10px;
+}
+
+.alert {
+  background: #808080;
+  margin: 10px;
+  padding: 5px;
+  border-radius: 5px;
+  color: white;
+}
+
+.message,
+.settings {
+  display: flex;
+  flex-direction: column;
+}
+
+.widget-container {
+  margin: 0 10px;
+  padding: 10px;
+}
+
+.form-field,
+.form-area {
+  font-size: 1.2rem;
+  margin: 10px;
+}
+
+#send {
+  margin: 10px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+.navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-grow: 1;
+}
+
+.section-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.trafic-nav {
+  display: flex;
+  flex-direction: row;
+  margin-right: 15px;
+}
+
+.trafic-nav-item {
+  margin: 5px 15px;
+  padding: 3px 8px;
+  background: #00dd00;
+  color: white;
+  font-weight: 600;
+  border-radius: 15px;
+}
+
+.social-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid #888888;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 20px;
+  background: rgba(238, 238, 237, 0.787);
+}
+
+.social-image {
+  background: #7477BF;
+  border-radius: 50%;
+  padding: 1em;
+  width: 110px;
+  height: 110px;
+}
+
+.social-image path {
+  fill: white;
+}
+
+#twitter-widget svg {
+  padding-top: 10%;
+}
+
+.social-label {
+  font-size: 2em;
+}
+
+.social-value {
+  font-size: 4em;
+  font-weight: 500;
+}
+
+.social-text p {
+  margin: 0;
+}
+
+.members-container {
+  border-bottom: 1px dashed #808080;
+  padding: 15px 5px;
+  display: flex;
+  align-items: center;
+}
+.members-container p {
+  margin: 0px;
+}
+.members-container a {
+  font-size: 1.1rem;
+}
+
+.text-wrapper {
+  flex-grow: 1;
+  margin-left: 15px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.members-text {
+  flex-basis: 350px;
+  margin-bottom: 15px;
+}
+
+.recent-activity .members-text p:last-child {
+  margin-top: 10px;
+}
+
+select option {
+  line-height: 2;
+}
+
+.settings-button {
+  display: flex;
+  justify-content: space-between;
+}
+.settings-button button {
+  flex-grow: 1;
+  margin: 10px;
+}
+
+/*# sourceMappingURL=style.css.map */

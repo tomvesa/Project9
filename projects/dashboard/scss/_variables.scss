@@ -1,0 +1,37 @@
+$grey: #949494fd;
+;
+$blue: #7477BF; //blue slate
+$green: #65ff04;
+
+
+
+$lighter: 15%;
+$darker:  15%;
+$light:   25%;
+$dark:    25%;
+$Vlight:  35%;
+$Vdark:   35%;
+
+
+$color-primary: $grey;
+$color-primary-lighter: lighten($color-primary, $lighter);
+$color-primary-light: lighten($color-primary, $light);
+$color-primary-Vlight: lighten($color-primary, $Vlight);
+$color-primary-dark: darken($color-primary, $dark);
+$color-primary-Vdark: darken($color-primary, $Vdark);
+$color-signal: $green;
+$color-signal-darker: darken($color-signal, $darker);
+
+
+$color-secondary: $blue;
+$color-secondary-lighter: lighten($color-secondary, $lighter);
+$color-secondary-darker: darken($color-secondary, $darker);
+$color-secondary-dark: darken($color-secondary, $dark);
+$color-secondary-Vdark: darken($color-secondary, $Vdark);
+
+
+
+
+
+
+

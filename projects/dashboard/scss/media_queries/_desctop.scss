@@ -1,0 +1,56 @@
+@media only screen and (min-width: 1024px) {
+
+    body
+{
+    //background: yellow;
+    margin: 0;   
+    display: grid;
+    grid-template-columns: minmax(100px, 150px) minmax(70px, 1fr);
+    grid-template-rows: 70px auto 1fr;
+    grid-template-areas: "nav header"
+                         "nav dashboard"
+                         "nav main";
+
+}
+
+nav {
+    flex-direction: column;
+    align-self: stretch;
+    
+}
+
+.navigation {
+    display: flex;
+    flex-direction: column;
+    max-height: 100vh;
+    position: sticky;
+    top: 0px;
+}
+
+.alert {
+    margin: 10px 5%;
+}
+
+main {
+        width: 1500px;
+        max-width: 100%;
+        margin: auto;
+    }
+
+.members-container {
+    padding: 15px 25px;
+}
+
+
+
+.social-container {
+    flex-grow: 0.5;
+}
+
+.social-container div {
+    margin: 5px;
+}
+
+
+
+}

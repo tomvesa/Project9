@@ -1,0 +1,89 @@
+
+header {
+    background: $color-secondary-lighter;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    padding: 5px 10px;
+    align-items: center;
+   
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    
+    
+    :first-child{
+        margin-right: 5px;
+    }
+    :last-child{
+        margin-left: 15px;
+    }
+
+}
+.notification-container{
+    position: relative;
+}
+
+.notification {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-right: 20px;
+    transition: scale 2.5s linear .8s;
+}
+
+.notification:hover {
+        transform: scale(1.3);
+    }
+
+
+.notification-icon {
+    width: 7px;
+    background: $color-signal;
+    height: 7px;
+    z-index: 1;
+    position: absolute;
+    border-radius: 50%;
+}
+
+.notifications {
+    position: absolute;
+    width: 250px;
+    top:50px;
+    left: -150px;
+    max-width: 450px;
+    background: $color-primary-Vlight;
+    opacity: .97;
+    box-shadow: 3px 10px 15px -3px $color-primary;
+
+    :last-child{
+        margin-left:initial;
+    }
+    :first-child{
+        margin-right: initial;
+    }
+}
+
+.notification-item{
+    display: none;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3px 10px;
+    border-bottom: 1px solid $color-primary;
+}
+
+.notification-item .close-icon {
+    background: $color-secondary-darker;
+    border-radius: 3px;
+    padding: 1px;
+
+    &:hover{
+        background: $color-primary-Vdark;
+    }
+} 
+    

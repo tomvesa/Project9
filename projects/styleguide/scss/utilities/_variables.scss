@@ -1,0 +1,53 @@
+
+// ******** COLORS PALETE
+$color-blue             : #4da2bb;
+$color-light-blue       : #51ddfc;
+$color-green-blue       : #7ee6fd;
+$color-turquoise        : #58e1c1;
+$color-turquoise-darker : #80e8d1;
+$color-green            : #63cc82;
+$color-green-light      : #88d9a0;
+$color-red-pink         : #e4757a;
+$color-skin-pink        : #ec9fa3;
+$color-light-orange     : #fd9f85;
+$color-orange           : #fd7856; 
+$color-levander         : #927bc1;
+$color-levander-light   : #deb2ee;
+$color-white            : #fff;
+$color-black            : #000;
+$color-gray             : #777;
+
+
+
+//   Color
+$color-primary         : $color-light-blue; //default btns, links
+$color-secondary       : $color-turquoise;  // primary headlines, nav hover,    
+$color-error           : $color-red-pink;  //btn error
+$color-warning         : $color-orange;  //btn warn
+$color-success         : $color-green;      //btn succs
+$color-info            : $color-levander;   //btn info
+
+$color-text-def        : $color-gray;   // default text
+$color-text-light      : $color-white;  // color bgrnd texts,
+
+
+
+//  Font Types
+$font-fam-def          : "Lato", sans-serif;
+
+
+
+
+//    Border Radius
+$brd-rad-def            : 5px; // btns and square-like elements
+
+
+
+
+//   Media Break Points
+
+$med-tabl               : '(min-width: 768px)';
+
+//  Lighten-Darken percent
+ $lighter               : 15%;
+ $darker                : 15%;

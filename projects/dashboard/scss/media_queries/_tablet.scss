@@ -1,0 +1,76 @@
+@media only screen and (min-width: 768px) {
+    main {
+        width: 100vw;
+    }
+
+    .notifications{
+        left: -260px;
+    }
+    .dashboard input {
+        margin-right: 25px;
+        min-width: 300px;
+        width: 500px;
+        max-width: 35%;
+
+    }
+
+    .traffic {
+        margin: auto;
+    }
+
+    #social-section
+ {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        margin: auto;
+    }
+    #social-section .section-content {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+     
+  }
+
+
+
+    .daily,
+    .members-section {
+        display: flex;
+        max-width: 100vw;
+        justify-content: center;
+    }
+
+    .widget-container-half {
+        width: 45%;
+        margin-right: 0;
+        padding: 20px;
+    ;
+
+    .members-container {
+        min-height: 220px;
+    }
+        
+
+    }
+
+ canvas {
+     
+     width: 100%;
+ }   
+
+ .section-settings {
+    display: flex;
+    justify-content: center;
+    max-width: 100vw;
+}
+
+.settings {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    justify-self: center;
+}
+
+}

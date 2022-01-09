@@ -1,0 +1,41 @@
+.members-container {
+    border-bottom: 1px dashed $color-primary;
+    padding: 15px 5px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    
+    & p {
+        margin: 0px;
+
+    }
+
+    & a {
+        font-size: 1.1rem;
+    }
+
+    & .profile-image{
+        margin-right: 15px;
+    }
+}
+
+.text-wrapper{
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;   
+   
+}
+
+
+
+.members-text {
+   
+    flex-basis: 350px;
+    margin-bottom: 15px;
+   
+}
+
+.recent-activity .members-text p:last-child {
+    margin-top: 10px;
+}
